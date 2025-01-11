@@ -1,0 +1,6 @@
+services:
+    nextjs-bun:
+        image: nextjs-bun-docker:1.0.0
+        container_name: nextjs-bun-docker
+        ports:
+            - 3000:3000
